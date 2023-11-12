@@ -9,6 +9,7 @@ class Settings(BaseSettings):
     mysql_password: str = ''
 
     timezone: str = 'Asia/Shanghai'
+    debug: bool = False
 
     SECRET_KEY: str = 'd7724d7a5a8bb49de32647e73e8b0f93b4637c827dd3ada2a4c07a640bf67390'
     ALGORITHM: str = 'HS256'
